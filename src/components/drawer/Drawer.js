@@ -11,7 +11,7 @@ const CustomDrawer = () => {
   };
 
   const handleMouseLeave = () => {
-    setOpen(false); // Drawer closes when mouse leaves
+    setOpen(false);
   };
 
   return (
