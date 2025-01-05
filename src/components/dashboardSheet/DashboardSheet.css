@@ -1,0 +1,35 @@
+.dashboard-sheet {
+  background-color: rgb(244, 245, 247);
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 5px;
+  min-height: 400px;
+  width: 25%;
+  border-radius: 3px;
+}
+
+.status {
+  padding: 20px 10px 17px;
+  color: rgb(94, 108, 132);
+  font-size: 12.5px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.title {
+  text-transform: uppercase;
+  color: rgb(94, 108, 132);
+  font-size: 12.5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.count {
+  padding-left: 10px;
+  color: rgb(94, 108, 132);
+  font-size: 12.5px;
+}

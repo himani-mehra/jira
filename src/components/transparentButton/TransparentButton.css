@@ -1,0 +1,19 @@
+.transparent-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  padding: 0px 12px;
+  border-radius: 3px;
+  transition: 0.1s;
+  cursor: pointer;
+  font-size: 14.5px;
+  background: rgb(255, 255, 255);
+  color: rgb(66, 82, 110);
+  font-weight: normal;
+  font-size: 14.5px;
+}
+.transparent-button:hover {
+    background-color: rgb(231, 232, 235);
+    transition: 0.3s;
+}

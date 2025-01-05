@@ -1,0 +1,36 @@
+.search {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 0 5px 6px;
+  border-radius: 4px;
+  border: 1px solid rgb(223, 225, 230);
+  color: rgb(23, 43, 77);
+  background-color: rgb(244, 245, 247);
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  font-family: CircularStdBook, sans-serif;
+  font-size: 15px;
+}
+
+.search:hover {
+  background-color: rgb(239, 240, 241);
+}
+
+.search input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: inherit;
+  width: 100%;
+  font-size: inherit;
+}
+
+.search:focus-within {
+  border: 2px solid #266dd7;
+  background-color: white;
+}
+
+.search-bi-icon {
+    padding: 0 4px;
+  color: #5a5a5a;
+}

@@ -1,0 +1,22 @@
+.card {
+  background-color: white;
+  text-transform: none;
+  margin: 6px;
+  padding: 10px;
+  border-radius: 3px;
+  background: rgb(255, 255, 255);
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 2px 0px;
+  transition: 0.1s;
+  cursor: pointer;
+  user-select: none;
+  font-size: 15px;
+  font-family: CircularStdMedium;
+}
+.card:hover {
+    background-color: rgb(235,236,240);
+}
+.card-bottom {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}

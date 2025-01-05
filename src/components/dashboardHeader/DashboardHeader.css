@@ -1,0 +1,37 @@
+.dashboard-header {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.github-repo {
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  height: 32px;
+  vertical-align: middle;
+  line-height: 1;
+  padding: 0px 12px;
+  white-space: nowrap;
+  border-radius: 3px;
+  transition: 0.1s;
+  appearance: none;
+  cursor: pointer;
+  user-select: none;
+  font-size: 14.5px;
+  background: rgb(244, 245, 247);
+  color: rgb(66, 82, 110);
+  font-weight: normal;
+  gap: 7px;
+}
+
+.github-repo:hover {
+  background-color: rgb(231, 232, 235);
+}
+.heading {
+  font-weight: 600;
+  font-size: 24px;
+  font-family: CircularStdMedium;
+}
