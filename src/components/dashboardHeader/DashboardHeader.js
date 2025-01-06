@@ -5,13 +5,9 @@ const DashboardHeader = () => {
   return (
     <div className="dashboard-header">
       <span className="heading">Jira board</span>
-      <a
-        href="https://github.com/himani-mehra"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="https://github.com/himani-mehra" target="_blank">
         <button className="github-repo">
-          <i className="bi bi-github"></i>
+          <i class="bi bi-github"></i>
           Github Repo
         </button>
       </a>
