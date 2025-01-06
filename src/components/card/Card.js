@@ -6,8 +6,7 @@ const Card = () => {
   return (
     <div className="card">
       <div>
-        An issue's priority indicates its relative importance. Both the
-        priorities and their meanings can be customized by your administrator to
+        An issue's priority indicates its relative importance. Both 
         suit your organization.
       </div>
       <div className="card-bottom">

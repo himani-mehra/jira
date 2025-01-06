@@ -1,10 +1,12 @@
 import React, { useState } from "react";
+import AboutModal from "../aboutModal/AboutModal";
 import "./Drawer.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import jiraIcon from "../../assets/jira.png";
 
 const CustomDrawer = () => {
   const [open, setOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false); // Modal state
 
   const handleMouseEnter = () => {
     setOpen(true);
@@ -12,6 +14,14 @@ const CustomDrawer = () => {
 
   const handleMouseLeave = () => {
     setOpen(false);
+  };
+
+  const openModal = () => {
+    setIsModalOpen(true); // Open modal
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false); // Close modal
   };
 
   return (
@@ -32,11 +42,13 @@ const CustomDrawer = () => {
           {open && <span>CREATE ISSUES</span>}
         </div>
 
-        <div className="menu-item about">
+        <div className="menu-item about" onClick={openModal}>
           <i className="bi bi-question-circle" style={{ fontSize: "22px" }}></i>
           {open && <span>ABOUT</span>}
         </div>
       </div>
+      <AboutModal isOpen={isModalOpen} onClose={closeModal} />{" "}
+      {/* Modal component */}
     </div>
   );
 };
