@@ -1,0 +1,41 @@
+.rich-text-editor {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 600px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+.toolbar {
+  display: flex;
+  gap: 8px;
+  padding: 10px;
+  /* background-color: #f9f9f9; */
+  /* border-bottom: 1px solid #ccc; */
+}
+
+.toolbar button {
+  color: black;
+  /* border: 1px solid #ccc;
+  background-color: white; */
+  padding: 5px 5px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+.toolbar button:hover {
+  background-color: #e3e3e3;
+}
+
+.editor {
+  padding: 15px;
+  min-height: 200px;
+  outline: none;
+  overflow-y: auto;
+}
+
+.editor:focus {
+  border: 1px solid #007bff;
+}

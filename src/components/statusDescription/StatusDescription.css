@@ -1,0 +1,9 @@
+.status-description {
+    padding: 5px;
+    display: flex;
+    gap:10px;
+    color: rgb(66, 82, 110);
+    font-size: 15px;
+    box-sizing: border-box;
+    margin: 5px 0;
+}

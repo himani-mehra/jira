@@ -1,0 +1,25 @@
+.search-issue {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: none;
+  border-bottom: 2px solid rgb(39, 96, 208);
+  font-size: 21px;
+}
+.recent-issues {
+    margin-top: 20px;
+  padding-bottom: 12px;
+  text-transform: uppercase;
+  color: rgb(94, 108, 132);
+  font-weight: 600;
+  font-size: 11.5px;
+}
+
+.issues-list {
+    cursor: pointer;
+    margin-right: 10px;
+}
+.issues-list:hover {
+    background-color: rgb(244,245,247);
+    border-radius: 6px;
+}

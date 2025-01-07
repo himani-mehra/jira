@@ -8,8 +8,8 @@
   width: 60px;
   background-color: #0747a6;
   color: white;
-  z-index: 1050;
   transition: width 0.3s ease;
+   z-index: 100;
 }
 
 .drawer-container.open {

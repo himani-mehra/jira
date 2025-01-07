@@ -4,7 +4,10 @@
   "private": true,
   "dependencies": {
     "@atlaskit/avatar-group": "^10.1.2",
+    "@atlaskit/button": "^20.3.7",
     "@atlaskit/drawer": "^9.2.7",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
     "cra-template": "1.2.0",
