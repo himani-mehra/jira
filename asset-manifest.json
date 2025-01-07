@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jira/static/css/main.03353ab8.css",
-    "main.js": "/jira/static/js/main.811a088f.js",
+    "main.css": "/jira/static/css/main.13362bca.css",
+    "main.js": "/jira/static/js/main.9985ab34.js",
     "static/js/488.fce921b2.chunk.js": "/jira/static/js/488.fce921b2.chunk.js",
     "static/media/bootstrap-icons.woff?": "/jira/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
     "static/media/bootstrap-icons.woff2?": "/jira/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
@@ -9,12 +9,12 @@
     "static/media/project.png": "/jira/static/media/project.4c63059d9f9d1431dd0f.png",
     "static/media/jira.png": "/jira/static/media/jira.905698615b43b8f241cd.png",
     "index.html": "/jira/index.html",
-    "main.03353ab8.css.map": "/jira/static/css/main.03353ab8.css.map",
-    "main.811a088f.js.map": "/jira/static/js/main.811a088f.js.map",
+    "main.13362bca.css.map": "/jira/static/css/main.13362bca.css.map",
+    "main.9985ab34.js.map": "/jira/static/js/main.9985ab34.js.map",
     "488.fce921b2.chunk.js.map": "/jira/static/js/488.fce921b2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.03353ab8.css",
-    "static/js/main.811a088f.js"
+    "static/css/main.13362bca.css",
+    "static/js/main.9985ab34.js"
   ]
 }
